@@ -12,6 +12,7 @@
         <module name="service-email" />
         <module name="ecommerce" />
         <module name="common-kafka" />
+        <module name="service-users" />
       </profile>
     </annotationProcessing>
   </component>
