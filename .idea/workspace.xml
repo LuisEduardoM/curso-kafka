@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e4d28a7-7695-4213-909a-cedde44eb70f" name="Default Changelist" comment="" />
+    <list default="true" id="3e4d28a7-7695-4213-909a-cedde44eb70f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/curso-kafka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/GsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-email/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-log/src/main/java/br/com/alura/ecommerce/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-email/src/main/java/br/com/alura/ecommerce/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/LogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ecommerce.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/KafkaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/LogService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/alura/ecommerce/NewOrderMain.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +48,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,8 +67,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.alura.ecommerce" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.alura.ecommerce" />
     </key>
@@ -39,10 +82,16 @@
       <recent name="br.com.alura.ecommerce" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn package" />
+      <command value="mvn clean package" />
+    </option>
+  </component>
   <component name="RunManager" selected="Application.NewOrderMain">
     <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.EmailService" />
-      <module name="ecommerce" />
+      <module name="service-email" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -55,7 +104,7 @@
     </configuration>
     <configuration name="FraudDetectorService (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
-      <module name="ecommerce" />
+      <module name="curso-kafka" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -68,7 +117,20 @@
     </configuration>
     <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
-      <module name="ecommerce" />
+      <module name="service-fraud-detector" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudDetectorService" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
+      <module name="service-fraud-detector" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -81,7 +143,7 @@
     </configuration>
     <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
-      <module name="ecommerce" />
+      <module name="service-log" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -94,7 +156,7 @@
     </configuration>
     <configuration name="NewOrderMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.NewOrderMain" />
-      <module name="ecommerce" />
+      <module name="service-new-order" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.alura.ecommerce.*" />
@@ -115,9 +177,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.NewOrderMain" />
+        <item itemvalue="Application.LogService" />
         <item itemvalue="Application.EmailService" />
         <item itemvalue="Application.FraudDetectorService" />
-        <item itemvalue="Application.LogService" />
       </list>
     </recent_temporary>
   </component>
@@ -135,41 +197,86 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2597" y="179" key="#EmailService" timestamp="1581345422741">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#EmailService/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581345422741" />
+    <state x="2597" y="179" key="#FraudDetectorService_(1)" timestamp="1581345490161">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#FraudDetectorService_(1)/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581345490161" />
+    <state x="2597" y="179" key="#LogService" timestamp="1581351627516">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#LogService/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581351627516" />
+    <state x="2597" y="179" key="#NewOrderMain" timestamp="1581345524057">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2597" y="179" key="#NewOrderMain/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581345524057" />
     <state x="1467" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581288991566">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
     <state x="1467" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581288991566" />
-    <state x="1818" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581299095876">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state x="2259" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1581352817078">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2259" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581352817078" />
     <state x="1818" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581299095876" />
-    <state width="1234" height="279" key="GridCell.Tab.0.bottom" timestamp="1581306166215">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state x="2728" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581345340050">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2728" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581345340050" />
+    <state x="2676" y="380" width="619" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1581357223542">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2676" y="380" width="619" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581357223542" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581359456109">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581359456109" />
     <state width="1234" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581306166215" />
-    <state width="1234" height="279" key="GridCell.Tab.0.center" timestamp="1581306166215">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581359456108">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581359456108" />
     <state width="1234" height="279" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581306166215" />
-    <state width="1234" height="279" key="GridCell.Tab.0.left" timestamp="1581306166215">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581359456108">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581359456108" />
     <state width="1234" height="279" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581306166215" />
-    <state width="1234" height="279" key="GridCell.Tab.0.right" timestamp="1581306166215">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581359456108">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581359456108" />
     <state width="1234" height="279" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581306166215" />
     <state x="1543" y="179" key="Maven.ArtifactSearchDialog" timestamp="1581284162101">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
     <state x="1543" y="179" key="Maven.ArtifactSearchDialog/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581284162101" />
+    <state x="2690" y="303" key="chooseDestDirectoryDialog" timestamp="1581357220618">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2690" y="303" key="chooseDestDirectoryDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581357220618" />
     <state x="1658" y="110" width="710" height="819" key="find.popup" timestamp="1581288759068">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
     <state x="1658" y="110" width="710" height="819" key="find.popup/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581288759068" />
+    <state x="2262" y="216" key="new project wizard" timestamp="1581356548863">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2262" y="216" key="new project wizard/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581356548863" />
     <state x="1755" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1581296739931">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
     <state x="1755" y="155" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581296739931" />
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup" timestamp="1581359456132">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2536" y="240" width="672" height="677" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581359456132" />
+    <state x="2543" y="225" key="search.everywhere.popup" timestamp="1581350000092">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2543" y="225" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581350000092" />
   </component>
 </project>

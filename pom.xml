@@ -6,6 +6,7 @@
 
     <groupId>br.com.alura</groupId>
     <artifactId>ecommerce</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <build>
         <plugins>
@@ -13,16 +14,24 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>12</source>
-                    <target>12</target>
+                    <source>11</source>
+                    <target>11</target>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>service-email</module>
+        <module>service-fraud-detector</module>
+        <module>service-log</module>
+        <module>service-new-order</module>
+        <module>common-kafka</module>
+    </modules>
 
     <properties>
         <kakfa-clients-version>2.4.0</kakfa-clients-version>
         <slf4j-simple-version>1.7.30</slf4j-simple-version>
+        <gson-version>2.8.6</gson-version>
     </properties>
 
     <dependencies>
@@ -40,5 +49,41 @@
             <version>${slf4j-simple-version}</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${gson-version}</version>
+        </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>br.com.alura</groupId>
+                <artifactId>service-email</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.alura</groupId>
+                <artifactId>service-fraud-detector</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.alura</groupId>
+                <artifactId>service-log</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.alura</groupId>
+                <artifactId>service-new-order</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>br.com.alura</groupId>
+                <artifactId>common-kafka</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
