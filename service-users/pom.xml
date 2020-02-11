@@ -15,5 +15,9 @@
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
         </dependency>
+        <dependency>
+            <groupId>br.com.alura</groupId>
+            <artifactId>common-kafka</artifactId>
+        </dependency>
     </dependencies>
 </project>
