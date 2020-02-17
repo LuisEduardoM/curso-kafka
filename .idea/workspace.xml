@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e4d28a7-7695-4213-909a-cedde44eb70f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service-users/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/CreateUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/alura/ecommerce/NewOrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-http-ecommerce/src/main/java/br/com/alura/ecommerce/httpEcommerceService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/src/main/java/br/com/alura/ecommerce/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/ConsumerFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/common-kafka/target/classes/br/com/alura/ecommerce/KafkaService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/FraudDetectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/alura/ecommerce/FraudDetectorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/alura/ecommerce/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-fraud-detector/target/classes/br/com/alura/ecommerce/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/src/main/java/br/com/alura/ecommerce/NewOrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-new-order/target/classes/br/com/alura/ecommerce/NewOrderMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-new-order/target/classes/br/com/alura/ecommerce/NewOrderMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/src/main/java/br/com/alura/ecommerce/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-users/target/classes/br/com/alura/ecommerce/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-users/target/classes/br/com/alura/ecommerce/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users_database.db" beforeDir="false" afterPath="$PROJECT_DIR$/users_database.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +57,7 @@
       <recent name="br.com.alura.ecommerce" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.alura" />
       <recent name="br.com.alura.ecommerce" />
     </key>
   </component>
@@ -70,7 +67,7 @@
       <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewOrderMain">
+  <component name="RunManager" selected="Application.LogService (1)">
     <configuration name="CreateUserService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.CreateUserService" />
       <module name="service-users" />
@@ -110,19 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FraudDetectorService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
-      <module name="service-fraud-detector" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FraudDetectorService" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.FraudDetectorService" />
       <module name="service-fraud-detector" />
@@ -136,7 +120,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LogService (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
+      <module name="service-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogService" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.LogService" />
       <module name="service-log" />
       <extension name="coverage">
@@ -162,21 +159,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="httpEcommerceService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.ecommerce.httpEcommerceService" />
+      <module name="service-http-ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.ecommerce.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FraudDetectorService (1)" />
-      <item itemvalue="Application.EmailService" />
-      <item itemvalue="Application.FraudDetectorService" />
       <item itemvalue="Application.LogService" />
+      <item itemvalue="Application.LogService (1)" />
+      <item itemvalue="Application.httpEcommerceService" />
+      <item itemvalue="Application.EmailService" />
       <item itemvalue="Application.NewOrderMain" />
       <item itemvalue="Application.CreateUserService" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewOrderMain" />
         <item itemvalue="Application.EmailService" />
-        <item itemvalue="Application.LogService" />
         <item itemvalue="Application.CreateUserService" />
-        <item itemvalue="Application.FraudDetectorService" />
+        <item itemvalue="Application.httpEcommerceService" />
+        <item itemvalue="Application.NewOrderMain" />
       </list>
     </recent_temporary>
   </component>
@@ -211,9 +221,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2597" y="179" key="#NewOrderMain/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581345524057" />
-    <state x="1467" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581288991566">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state x="1996" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581961321027">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="1996" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581961321027" />
     <state x="1467" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581288991566" />
     <state x="1750" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581382629102">
       <screen x="1366" y="0" width="2560" height="1040" />
@@ -232,25 +243,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2676" y="380" width="619" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581357223542" />
-    <state width="1234" height="279" key="GridCell.Tab.0.bottom" timestamp="1581386642314">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1581971949425">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581368507503" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581971949425" />
     <state width="1234" height="279" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581386642314" />
-    <state width="1234" height="279" key="GridCell.Tab.0.center" timestamp="1581386642314">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1581971949425">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581368507503" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581971949425" />
     <state width="1234" height="279" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581386642314" />
-    <state width="1234" height="279" key="GridCell.Tab.0.left" timestamp="1581386642314">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1581971949425">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581368507503" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581971949425" />
     <state width="1234" height="279" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581386642314" />
-    <state width="1234" height="279" key="GridCell.Tab.0.right" timestamp="1581386642314">
-      <screen x="1366" y="0" width="2560" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1581971949425">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581368507503" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581971949425" />
     <state width="1234" height="279" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581386642314" />
     <state x="1543" y="179" key="Maven.ArtifactSearchDialog" timestamp="1581284162101">
       <screen x="1366" y="0" width="2560" height="1040" />
@@ -268,10 +279,10 @@
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
     <state x="1658" y="110" width="710" height="819" key="find.popup/0.0.1366.728/1366.0.2560.1040@1366.0.2560.1040" timestamp="1581288759068" />
-    <state x="2262" y="216" key="new project wizard" timestamp="1581367886354">
+    <state x="2262" y="216" key="new project wizard" timestamp="1581949135345">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2262" y="216" key="new project wizard/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581367886354" />
+    <state x="2262" y="216" key="new project wizard/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1581949135345" />
     <state x="1755" y="155" key="refactoring.ChangeSignatureDialog" timestamp="1581296739931">
       <screen x="1366" y="0" width="2560" height="1040" />
     </state>
